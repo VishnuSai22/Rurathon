@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog</title>
+  <link rel = "icon" href =  "logo2.jpg" type = "image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/all.js">
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style media="screen">
+  </style>
+</head>
+
+<body>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.6.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.6.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+
+  <section id="title">
+
+    <div class="container-fluid">
+
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg">
+        <p class="upper">SANDOHA</h1>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <ul class="navbar-nav ml-auto" id="navbarSupportedContent">
+            <li class="nav-item"><a class="nav-link" href="#">
+
+              </a></li>
+
+              <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        <h2>LOGIN</h2>
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="C:\Users\VISHNU SAI\Desktop\Rurathon - HOLISTIC SANDOHA\website\index.html">BUYER</a>
+        <a class="dropdown-item" href="C:\Users\VISHNU SAI\Desktop\Rurathon - HOLISTIC SANDOHA\website\reg.html">DEALER</a>
+        <a class="dropdown-item" href="C:\Users\VISHNU SAI\Desktop\Rurathon - HOLISTIC SANDOHA\website\delivery.html">DELIVERY EXECUTIVE</a>
+      </div>
+    </li>
+            <li class="nav-item"><a class="nav-link" href="#">
+                <h2>CONTACT</h2>
+              </a></li>
+            <li class="nav-item"><a class="nav-link" href="#">
+                <h2>ABOUT US</h2>
+              </a></li>
+          </ul>
+
+      </nav>
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-2">
+
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <h1 class="font"><b>Milk</b>& More,every Morning! </h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-light btn-lg download-button"><i class="fa fa-android"></i> Download</button>
+        </div>
+        <div class="" col-lg-6 col-md-6 col-sm-6"">
+          <img src="C:\Users\VISHNU SAI\Desktop\Rurathon - HOLISTIC SANDOHA\website\farmer registration.PNG" class="rounded-circle" alt="logo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="fa fa-check-circle-o icon" style="font-size:60px;"></i>
+        <h3>Easy to use.</h3>
+        <p>So easy to use....</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="fa fa-stop icon" style="font-size:60px;"></i>
+        <h3>Elite Clientele</h3>
+        <p>We have all the milk product</p>
+
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="fa fa-heart icon" style="font-size:60px"></i>
+        <h3>Guaranteed to work.</h3>
+        <p>Quality assured or else your money back.</p>
+
+      </div>
+
+    </div>
+
+
+  </section>
+
+  <!--Slideshow-->
+
+  <div class="container mt-3" >
+    <br>
+    
+    <!-- The carousel -->
+<div id="myCarousel" class="carousel carousel-fade slide border" data-ride="carousel" data-interval="1000" data-pause="hover" >
+
+    <!-- Indicators -->
+  <ul class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ul>
+    
+    <!-- The slideshow -->
+  <div class="carousel-inner">
+      <div class="carousel-item active">
+          <img src="3.jpg" alt="Los Angeles" width="500" height="500">
+      </div>
+      <div class="carousel-item">
+          <img src="4.jpg" alt="Chicago" width="500" height="500">
+      </div>
+      <div class="carousel-item">
+          <img src="1.jpg" alt="New York" width="500" height="500">
+      </div>
+      <div class="carousel-item">
+          <img src="bImage4.jpg" alt="New York" width="500" height="500">
+      </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+  </a>
+      <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+  <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+</div>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials" class="border">
+      <h2 style="text-align:center;padding:2%">Testimonials</h2>
+    <div class="row" >
+      <div class="col-lg-6">
+        <img src="WhatsApp Image 2019-06-07 at 10.10.20 PM.jpeg" class="rounded-circle shiva" alt="dog-profile" height="250px">
+        <em>chinamalareddy, telangana</em>
+        <p class="font">Thank you   SANDOHA. My self B.shivakumar, My   business is whole and sole  dependent on MILK.
+my business has increased  drastically just because of  collaboration with SANDOHA MILK. They  will maintain  quality , purity and  good relations with their customers.
+every one are just satisfied for their service.</p>
+
+      </div>
+
+    <div class="col-lg-6">
+      <img src="WhatsApp Image 2019-07-16 at 5.04.52 PM.jpeg" class="rounded-circle shiva" alt="dog-profile" height="250px">
+      <em>mangalpally, telangana</em>
+      <p class="font">Happy..... This website includes ease of access.Using this website makes U feel like online ordering will be comfortable .the main advantage of this is we will be delivered with purest form of products</p>
+    </div>
+
+    </div>
+
+
+
+    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+    <em>Beverly, Illinois</em> -->
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="CONTACT" class="bg-dark">
+<h2 style="text-align:center;padding:2%;color:#000;">CONTACT DETAILS</h2>
+    <div class="row">
+      <div class="col">
+        <a href="https://www.facebook.com/sandoha.best"><i class="fa fa-facebook-official" style="font-size:36px"></i></a>
+      </div>
+      <div class="col">
+        <i class="fa fa-instagram" style="font-size:36px"></i>
+      </div>
+      <div class="col">
+        <i class="fa fa-youtube-play" style="font-size:36px"></i>
+      </div>
+      <div class="col">
+          <i class="fa fa-twitter" style="font-size:36px"></i>
+      </div>
+      <div class="col">
+        <i class="fa fa-linkedin" style="font-size:36px"></i>
+      </div>
+     <div class="col">
+        <i class="fa fa-phone" style="font-size:36px"></i>
+        </div>
+      <div class="col">
+          <p style="color: white;text-align: center;">+91 9398267365</p> 
+        </div>
+      </div>
+
+  </section>
+  <i class="icon-inbox"></i>
+  </footer>
+<div>
+  <p></p>
+</div>
+
+</body>
+
+</html>
